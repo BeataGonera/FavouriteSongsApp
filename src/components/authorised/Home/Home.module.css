@@ -1,0 +1,44 @@
+/* .container{
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} */
+
+
+.nav{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: purple;
+    margin-bottom: 100px;
+}
+
+.title{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+h3{
+    align-self: flex-start;
+}
+
+.songsListContainer{
+    width: 300px;
+    min-height: 300px;
+    margin: 50px auto;
+    border: 2px solid purple;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.listitem{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
